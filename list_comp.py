@@ -24,5 +24,5 @@ print(first+last)
 
 #Returns a list like the above, but if the number matches the index of the character mod 3 (e.g. 'c'	
 #and	3, instead print a single capitalized version of that character:
-[letter.upper() for letter in list if (list.index(letter)%3==0)]
-    
+
+[str[0].upper() if (sublist.index(str)== alphabet.index(str[0])%3) else str for sublist in list for str in sublist]
